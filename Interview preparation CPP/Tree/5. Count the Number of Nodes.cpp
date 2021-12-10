@@ -73,6 +73,10 @@ void printTree(TreeNode<int>* root) {
 	}
 }
 
+
+
+***************************************************************
+
 int numNodes(TreeNode<int>* root) {
 	int ans = 1;
 	for (int i = 0; i < root->children.size(); i++) {
@@ -80,6 +84,8 @@ int numNodes(TreeNode<int>* root) {
 	}
 	return ans;
 }
+
+***************************************************************
 
 int main() {
 	/*TreeNode<int>* root = new TreeNode<int>(1);

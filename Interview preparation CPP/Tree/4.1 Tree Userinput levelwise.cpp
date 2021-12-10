@@ -14,6 +14,10 @@ class TreeNode {
 
 };
 
+
+
+*********************************************************************
+
 TreeNode<int>* takeInputLevelWise() {
 	int rootData;
 	cout << "Enter root data" << endl;
@@ -40,6 +44,10 @@ TreeNode<int>* takeInputLevelWise() {
 	}
 	return root;
 }
+
+***************************************************************************
+
+
 
 TreeNode<int>* takeInput() {
 	int rootData;

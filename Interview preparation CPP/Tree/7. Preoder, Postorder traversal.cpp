@@ -99,6 +99,10 @@ int numNodes(TreeNode<int>* root) {
 	return ans;
 }
 
+
+
+
+****************************************************************
 void preorder(TreeNode<int>* root) {
 	if (root == NULL) {
 		return;
@@ -110,7 +114,11 @@ void preorder(TreeNode<int>* root) {
 }
 
 // 1 3 2 3 4 2 5 6 2 7 8 0 0 0 0 1 9 0
+***********************************************************
 
+
+
+***********************************************************
 void postOrder(TreeNode<int>* root) {
    
     
@@ -119,10 +127,11 @@ void postOrder(TreeNode<int>* root) {
         postOrder(root->children[i]);
         
     }
-    cout<<root->data<<" ";
-
-   
+    cout<<root->data<<" ";   
 }
+*************************************************************
+
+
 
 int main() {
 	/*TreeNode<int>* root = new TreeNode<int>(1);
